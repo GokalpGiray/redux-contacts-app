@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/redux-contacts-app/static/css/main.2bddd8c7.css",
+    "main.js": "/redux-contacts-app/static/js/main.7c9fa855.js",
+    "static/js/787.2247eb00.chunk.js": "/redux-contacts-app/static/js/787.2247eb00.chunk.js",
+    "index.html": "/redux-contacts-app/index.html",
+    "main.2bddd8c7.css.map": "/redux-contacts-app/static/css/main.2bddd8c7.css.map",
+    "main.7c9fa855.js.map": "/redux-contacts-app/static/js/main.7c9fa855.js.map",
+    "787.2247eb00.chunk.js.map": "/redux-contacts-app/static/js/787.2247eb00.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2bddd8c7.css",
+    "static/js/main.7c9fa855.js"
+  ]
+}
