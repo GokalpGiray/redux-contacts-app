@@ -9,6 +9,7 @@
   width: 400px;
   background-color: aliceblue;
   padding: 20px;
+  border-radius: 24px;
 }
 
 input {
@@ -17,6 +18,7 @@ input {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  border-radius: 6px;
 }
 
 ul,
@@ -36,6 +38,7 @@ li {
   margin-bottom: 2px;
   display: flex;
   justify-content: space-between;
+  border-radius: 6px;
 }
 
 .btn {
@@ -47,4 +50,23 @@ li {
 .btn > button {
   padding: 5px;
   width: 60px;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: cornflowerblue;
+}
+
+.deleteBtn {
+  width: 18px;
+  height: 23px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  border-style: solid;
+  border-color: rgb(153, 0, 0);
+  border-radius: 6px;
+}
+
+.deleteBtn:hover {
+  background-color: rgb(153, 0, 0);
 }
