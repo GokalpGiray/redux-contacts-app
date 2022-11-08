@@ -53,6 +53,11 @@ li {
   border-radius: 6px;
   cursor: pointer;
   background-color: cornflowerblue;
+  color: white;
+}
+
+.btn > button:hover {
+  background-color: rgb(56, 82, 131);
 }
 
 .deleteBtn {
@@ -68,5 +73,22 @@ li {
 }
 
 .deleteBtn:hover {
+  background-color: rgb(153, 0, 0);
+}
+
+.deleteAllBtn {
+  float: right;
+  text-align: center;
+  cursor: pointer;
+  width: 85px;
+  height: 25px;
+  background-color: red;
+  color: white;
+  border-style: solid;
+  border-color: rgb(153, 0, 0);
+  border-radius: 6px;
+}
+
+.deleteAllBtn:hover {
   background-color: rgb(153, 0, 0);
 }
