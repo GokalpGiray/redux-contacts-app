@@ -10,6 +10,7 @@
   background-color: aliceblue;
   padding: 20px;
   border-radius: 24px;
+  border-style: solid;
 }
 
 input {
@@ -19,6 +20,9 @@ input {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   border-radius: 6px;
+  border-style: solid;
+  margin-bottom: 5px;
+  border-color: black;
 }
 
 ul,
@@ -39,6 +43,8 @@ li {
   display: flex;
   justify-content: space-between;
   border-radius: 6px;
+  border-style: solid;
+  border-color: rgb(255, 145, 0);
 }
 
 .btn {
@@ -52,12 +58,18 @@ li {
   width: 60px;
   border-radius: 6px;
   cursor: pointer;
-  background-color: cornflowerblue;
+  background-color: blue;
   color: white;
+  border-color: rgb(0, 0, 124);
+  border-style: solid;
 }
 
 .btn > button:hover {
-  background-color: rgb(56, 82, 131);
+  background-color: rgb(0, 0, 124);
+}
+
+.edit > span{
+  padding: 0 5px;
 }
 
 .deleteBtn {
@@ -91,4 +103,23 @@ li {
 
 .deleteAllBtn:hover {
   background-color: rgb(153, 0, 0);
+}
+
+.editBtn {
+  margin-right: 10px;
+  text-align: center;
+  cursor: pointer;
+  background-color: green;
+  border-style: solid;
+  border-color: rgb(0, 80, 0);
+  border-radius: 6px;
+}
+
+.editBtn:hover {
+  background-color: rgb(0, 80, 0);
+}
+
+.editBtn > a {
+  color: white;
+  text-decoration: none;
 }

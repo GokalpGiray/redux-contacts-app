@@ -8,7 +8,7 @@ function Contacts() {
   const total = useSelector(contactSelectors.selectTotal);
 
   return (
-    <div id='container'>
+    <div>
       <h1>Contacts ({total})</h1>
       <List />
       <Form />
